@@ -1,0 +1,56 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif; /* Use Google font for text */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #02556e; /* Set background color */
+    color: #333; /* Set text color */
+}
+
+header {
+    background-color: #FFA500; /* Set header background color */
+    color: #fff; /* Set header text color */
+    padding: 20px; /* Add padding */
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Space elements evenly */
+    align-items: center; /* Center elements vertically */
+}
+
+main {
+    width: 70%; /* Set width of main section */
+    padding: 15%; /* Add padding */
+    height: calc(100vh - 40px); /* Set height to fill remaining viewport height after considering header padding */
+}
+
+footer {
+    text-align: center; /* Center align text within footer */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif; /* Use Google font for headings */
+}
+
+h1, h2 {
+    margin: 0; /* Remove default margin */
+}
+
+h1 {
+    font-size: 28px; /* Set font size for main heading */
+    margin-bottom: 0; /* Remove bottom margin */
+}
+
+h2 {
+    font-size: 18px; /* Set font size for subtitle */
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+.image-container {
+    margin: 100px; /* Add margin */
+}
+
+.divider {
+    margin: 30px auto; /* Center horizontal divider */
+    width: 75%; /* Set width */
+    border: none; /* Remove default border */
+    border-top: 2px solid #a27400; /* Set border top */
+}
